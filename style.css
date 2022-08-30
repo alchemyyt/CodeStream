@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Todo el html => fondo nergro y letras blancas*/
+html {
+    background-color: #121214 ;
+    color: #F5F3EA ;
+    font-size: 1.5em;
+}
+a{
+    color: #29D9D5;
+}
+/*que las tabla actuen como grid y centrar sus items*/
+table {
+    display: grid; 
+    overflow-x:auto;
+    max-width: 100%;
+    max-height: 90vh;
+    border: #ff0e0e solid 0px;
+    padding: 0px;
+}
+/*Que el header y los elementos regulares de las tablas =>tengan bordes azules solidos de 3 px y un pading*/
+th,td{
+    border: #29D9D5 solid 3px;
+    padding: 1em;
+    text-align: center;
+}
+/*hs azules*/
+h1,h2,h3,h4{
+    color: #29D9D5;
+    padding: .5em;
+}
+/*Todos los ul tiene un padding de 20 por defecto y una decoracion es importantisimo quitarlos porque si no molesta mucho*/
+ul{
+
+    padding: 0;
+    list-style: none;
+}
+.img{
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin: .5em;
+    border: #F5F3EA solid 1px;
+}
+ol{
+    width: 80%;
+    list-style: disc;
+}
+li {
+    padding: .5em;
+    text-align: left;
+}
+p{
+    width: 80%;
+}
